@@ -10,17 +10,7 @@ int level,hp,ap,dp,sp;
 
 };
 
-void test_role(){
-	char name[]="路人甲";
-	struct Role role;
-	role.name=name;
-	role.level=1;
-	role.hp=10;
-	role.ap=1;
-	role.dp=1;
-	role.sp=5;
-	void dump_role(Role&role); 
-}
+
 
 void dump_role(Role&role){
 	cout<<"名稱："<<role.name<<"\n";
@@ -32,7 +22,20 @@ void dump_role(Role&role){
 	 
 }
 
+void test_role(){
+	char name[]="路人甲";
+	struct Role role;
+	role.name=name;
+	role.level=1;
+	role.hp=10;
+	role.ap=1;
+	role.dp=1;
+	role.sp=5;
+	dump_role(role); 
+}
 
-
+int main(){
+	 test_role();
+}
 
 

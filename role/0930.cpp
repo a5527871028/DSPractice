@@ -4,7 +4,7 @@ using namespace std;
 
 
 
-struct Role{
+struct Role{ //struct預設是public class則 private
 char *name;
 int level,hp,ap,dp,sp;
 

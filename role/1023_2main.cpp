@@ -8,18 +8,17 @@ set(i, j, v): 設定二維陣列第 i 列，第 j 行的元素值為 v。
 */
 
 struct Num{
-	int i,j,v;
+	int i,j;
 	int odds[3][4];
 };
 
 
 void dump(){
 	struct Num ODDS;
-	int i,j,v;
+	int i,j;
 	int odds[3][4];
 	ODDS.i=i;
 	ODDS.j=j;
-	ODDS.v=v;
 	ODDS.odds[3][4]=odds[3][4];
 	
 	for(i=0;i<3;i++){

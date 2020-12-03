@@ -21,6 +21,8 @@ class Stack{
 		
 }; 
 
+
+
 Stack::Stack(int size){
 	data = new int[size];
 	top_=-1;
@@ -66,7 +68,7 @@ int main(int argc, char** argv){
 	
 	cout<<"\n"<<"資料放入"<<"\n";
 	while(i<10&&!stack.full(S)) {
-		cout<<i<<"放"<<a[i]<<"\t";
+		cout<<i<<"放"<<i<<"\t";
 		stack.push(a[i]);
 		i++; 
 	}
